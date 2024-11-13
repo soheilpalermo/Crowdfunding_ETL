@@ -46,3 +46,8 @@ CREATE TABLE campaign (
     CONSTRAINT fk_subcategory FOREIGN KEY (subcategory_id) REFERENCES subcategory (subcategory_id)
 );
 
+select * from contacts
+select * from category
+select * from subcategory
+select * from campaign
+
